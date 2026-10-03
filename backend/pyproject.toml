@@ -1,0 +1,39 @@
+[project]
+name = "agrilogix-api"
+version = "0.1.0"
+description = "Agricultural logistics API"
+requires-python = ">=3.12"
+dependencies = [
+  "alembic>=1.14,<2.0",
+  "email-validator>=2.2,<3.0",
+  "fastapi>=0.115,<1.0",
+  "cryptography>=44,<47",
+  "google-genai>=1.0,<2.0",
+  "google-auth[requests]>=2.38,<3.0",
+  "openpyxl>=3.1.5,<4.0",
+  "pillow>=11,<13",
+  "python-multipart>=0.0.20,<1.0",
+  "psycopg[binary]>=3.2,<4.0",
+  "pydantic-settings>=2.7,<3.0",
+  "pwdlib[argon2]>=0.2.1,<1.0",
+  "pyjwt>=2.10,<3.0",
+  "sqlalchemy>=2.0,<3.0",
+  "uvicorn[standard]>=0.34,<1.0",
+]
+
+[dependency-groups]
+dev = [
+  "httpx>=0.28,<1.0",
+  "pytest>=8.3,<9.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

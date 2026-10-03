@@ -1,0 +1,6 @@
+{
+  "name": "Agrilogix",
+  "description": "AI-powered real-time agricultural supply-chain intelligence platform that tracks produce freshness, predicts spoilage risk, provides AI FreshRoute and Crop Rescue rerouting, and creates an evidence-based digital chain of custody.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

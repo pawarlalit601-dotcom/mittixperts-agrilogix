@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">AgriLogix</title>
+  <desc id="desc">Agriculture and logistics mark with a growing field, sunrise, and delivery truck.</desc>
+  <g transform="translate(8 6)">
+    <path d="M14 100 53 25q5-9 15-9h25q10 0 15 9l39 75h-34L81 44 48 100z" fill="#166534"/>
+    <path d="M44 91q34-33 75-34l-9 18q-25 4-49 24H37z" fill="#84A98C"/>
+    <path d="M48 100q31-22 66-25l10 25z" fill="#56866A"/>
+    <path d="M32 100q29-14 52-13M52 100q28-7 51-6" fill="none" stroke="#F7F8F3" stroke-width="3" stroke-linecap="round"/>
+    <path d="M110 30a28 28 0 0 1 48 17" fill="none" stroke="#D9A441" stroke-width="9" stroke-linecap="round"/>
+    <path d="M103 73h43l12 9h13v17h-68z" fill="#263238"/>
+    <path d="M147 77v12h17l-10-12z" fill="#F7F8F3"/>
+    <circle cx="119" cy="100" r="8" fill="#263238"/><circle cx="119" cy="100" r="3.5" fill="#F7F8F3"/>
+    <circle cx="157" cy="100" r="8" fill="#263238"/><circle cx="157" cy="100" r="3.5" fill="#F7F8F3"/>
+  </g>
+  <text x="190" y="82" font-family="Inter, 'Noto Sans Devanagari', sans-serif" font-size="54" font-weight="800" letter-spacing="0" fill="#166534">Agri<tspan fill="#263238">Logix</tspan></text>
+  <path d="M193 105h42m210 0h40" stroke="#84A98C" stroke-width="2"/>
+  <text x="205" y="111" font-family="Inter, 'Noto Sans Devanagari', sans-serif" font-size="11" font-weight="600" letter-spacing="0" fill="#263238">India&apos;s Dedicated Agricultural Freight Corridor</text>
+</svg>

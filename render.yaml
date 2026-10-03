@@ -1,5 +1,5 @@
 databases:
-  - name: agrilogix-db
+  - name: agrilogix-scanner-db
     databaseName: agrilogix
     user: agrilogix
     plan: free
@@ -7,7 +7,7 @@ databases:
 
 services:
   - type: web
-    name: agrilogix-api
+    name: agrilogix-scanner-api
     runtime: docker
     plan: free
     region: oregon
@@ -19,7 +19,7 @@ services:
         value: production
       - key: DATABASE_URL
         fromDatabase:
-          name: agrilogix-db
+          name: agrilogix-scanner-db
           property: connectionString
       - key: JWT_SECRET_KEY
         generateValue: true

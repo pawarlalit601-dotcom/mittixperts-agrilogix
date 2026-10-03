@@ -25,7 +25,7 @@ Create a root `.env` file with `POSTGRES_PASSWORD`, a cryptographically random `
 
 Create a Render Blueprint from `render.yaml` to deploy the API and PostgreSQL database. Set the requested `GEMINI_API_KEY` and `KYC_ENCRYPTION_KEY` secrets in Render; the latter must be a URL-safe base64 encoding of 32 random bytes. The free Render database is intended for preview deployments and may expire; use a paid persistent database for production.
 
-Create a Vercel project from the same repository and set its Root Directory to `frontend`. The included `frontend/vercel.json` forwards `/api/*` requests to the Render API. The Render service name in that rewrite must match the deployed API URL. Configure `VITE_GOOGLE_MAPS_API_KEY` and, if Google sign-in is enabled, `VITE_GOOGLE_CLIENT_ID` in Vercel project environment variables.
+Create a Vercel project from the same repository and set its Root Directory to `frontend`. The included `frontend/vercel.json` forwards `/api/*` requests to the Render API. Configure `VITE_GOOGLE_MAPS_API_KEY` and, if Google sign-in is enabled, `VITE_GOOGLE_CLIENT_ID` in Vercel project environment variables.
 
 ## Security boundaries
 

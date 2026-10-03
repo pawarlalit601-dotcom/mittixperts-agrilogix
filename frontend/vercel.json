@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://agrilogix-api.onrender.com/api/:path*"
+      "destination": "https://agrilogix-scanner-api.onrender.com/api/:path*"
     }
   ]
 }
